@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="49.246247">
+<testcase classname="Kayak Application" name="UseCase1" time="25.755084">
+<system-out><![CDATA[Given I launched in the kayak application for "test1".......................passed
+Then I verify the home page using homePageTitle.............................passed
+When I enter the "Bengaluru" and "Chennai" cities...........................passed
+And I enter the "11/15/2020" and "12/12/2020" dates.........................passed
+And I click on search icon..................................................passed
+Then I verify the search page using "BLR to MAA"............................passed
+And On search results page, I select the search result "3" , where N is the input data.passed
+Then I Assert the "BLR" and "MAA" Details are same as the one entered in the main screen.passed
+And Usecase "test1" is completed............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Kayak Application" name="UseCase1_2" time="23.491163">
+<system-out><![CDATA[Given I launched in the kayak application for "test2".......................passed
+Then I verify the home page using homePageTitle.............................passed
+When I enter the "Bengaluru" and "Dallas" cities............................passed
+And I enter the "11/01/2020" and "11/15/2020" dates.........................passed
+And I click on search icon..................................................passed
+Then I verify the search page using "BLR to DFW"............................passed
+And On search results page, I select the search result "2" , where N is the input data.passed
+Then I Assert the "BLR" and "DFW" Details are same as the one entered in the main screen.passed
+And Usecase "test2" is completed............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
